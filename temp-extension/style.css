@@ -1,0 +1,106 @@
+/* #mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1 !important;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+} */
+
+#mydivheader {
+  padding: 5px;
+  cursor: move;
+  z-index: 10;
+
+  background-color: #2196f3;
+  color: rgba(234, 234, 234, 0.605);
+  /* width: 400px;
+  height: 180px; */
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid gray;
+  text-align: center;
+  width: 400px;
+  height: 180px;
+}
+#termbtn {
+  position: absolute;
+  padding: 5px;
+  border: 2px solid gray;
+  border-radius: 3px;
+  bottom: 5px;
+  right: 5px;
+}
+
+#minimize {
+  top: 2px;
+  font-size: 15px;
+  position: absolute;
+  right: 50px;
+  color: rgba(234, 234, 234, 0.605);
+}
+
+#maximize {
+  top: 2px;
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  color: rgba(234, 234, 234, 0.605);
+}
+/* Vært kult å adda fade transition */
+
+/* .m-fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+} */
+
+#setCurrentBet {
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  color: gray;
+  width: 100px;
+  padding: 5px;
+}
+#setMaxLoss {
+  position: absolute;
+  left: 10px;
+  top: 80px;
+  color: gray;
+  width: 100px;
+  padding: 5px;
+}
+
+#desc1 {
+  position: absolute;
+  left: 120px;
+  top: 43px;
+  color: gray;
+}
+
+#desc2 {
+  position: absolute;
+  left: 120px;
+  top: 83px;
+  color: gray;
+}
+
+#errorMsg {
+  position: absolute;
+  left: 30px;
+  top: 135px;
+  color: red;
+  visibility: hidden;
+}
+
+#botStart {
+  position: absolute;
+  left: 30px;
+  top: 135px;
+  color: lightskyblue;
+  visibility: hidden;
+}
