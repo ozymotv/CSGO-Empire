@@ -2,7 +2,6 @@
 
 <b>Hello do you want infinite money?</b><br>
 
-Video explaining the theory: https://www.youtube.com/watch?v=zTsRGQj6VT4<br>
 
 <h3>Currently waiting for Google Chrome confirmation</h3>
 <b></b>It is likely that chrome won't accept this extension, but fear not!<br>
